@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAPPY DASHRA</title>
+    <style type="text/css" media="all">
+        h1{
+            text-align: center;
+            position: relative;
+            top: -10px;
+            font-size: 60px;
+            text-transform: uppercase;
+            letter-spacing: 10px;
+            animation: text 5s infinite;
+        }
+        @keyframes text{
+            0%{color: red; text-shadow: 0px 0px 10px red;}
+            25%{color: blue; text-shadow: 0px 0px 10px blue; font-size: 20px;}
+            50%{color: green; text-shadow: 0px 0px 10px green; font-size: 40px;}
+            75%{color: yellow; text-shadow: 0px 0px 10px yellow; font-size: 60px;}
+            100%{color: aqua; text-shadow: 0px 0px 10px aqua;}
+        }
+        #container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+   
+        #a{
+            height: 80px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        span{
+            font-size: 40px;
+            font-weight: bold;
+            text-shadow: 0px 0px 10px yellow;
+            color: white;
+            animation: ani 1s linear forwards;
+            opacity: 0;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+        }
+        #and{
+           color: burlywood;
+            margin: 10px;
+        }
+        @keyframes ani{
+            0%{
+                opacity: 0;
+                transform: rotatey(90deg);
+                filter: blur(3px);
+            }
+            100%{
+                opacity: 1;
+                transform: rotatey(0deg);
+                filter: blur(0px);
+
+            }
+        }
+        span:nth-child(1){
+            animation-delay: 0.10s;
+        }
+        span:nth-child(2){
+            animation-delay: 0.35s;
+        }
+        span:nth-child(3){
+            animation-delay: 0.60s;
+        }
+        span:nth-child(4){
+            animation-delay: 0.85s;
+        }
+        span:nth-child(5){
+            animation-delay: 1.10s;
+        }
+        span:nth-child(6){
+            animation-delay: 1.35s;
+        }
+        span:nth-child(7){
+            animation-delay: 2s;
+        }
+        span:nth-child(8){
+            animation-delay: 2.25s;
+        }
+        span:nth-child(9){
+            animation-delay: 2.50s;
+        }
+        span:nth-child(10){
+            animation-delay: 3.15s;
+        }
+        span:nth-child(11){
+            animation-delay: 3.40s;
+        }
+        span:nth-child(12){
+            animation-delay: 4.05s;
+        }
+        span:nth-child(13){
+            animation-delay: 4.30s;
+        }
+        span:nth-child(14){
+            animation-delay: 5.50s;
+        }
+    </style>
+</head>
+<body bgcolor="black">
+    <div id="a">
+        <span>H</span>
+        <span>O</span>
+        <span>V</span>
+        <span>E</span>
+        <span>I</span>
+        <span id="and">&</span>
+        <span>A</span>
+        <span>N</span>
+        <span>I</span>
+        <span>M</span>
+        <span>A</span>
+        <span>T</span>
+        <span>I</span>
+        <span>O</span>
+        <span>N</span>
+    </div>
+    <h1>HAPPY
+        <br>DASHRA
+        <br> ALL MY FAMILIY & FRIENDS
+    </h1>
+</body>
+</html>
